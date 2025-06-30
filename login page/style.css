@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: syem, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url(stacked-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+input[type="email"],
+input[type="password"] {
+  width: 260px;
+  height: 50px;
+  padding-left: 2.2rem;
+  background-color: #ffffff; 
+  color: white;
+  border-color: #000000;
+  border-radius: 12px;
+  border-style: ridge;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+#email,
+#senha {
+  width: 300px;
+  height: 50px;
+  padding-left: 2.2rem;
+  padding-right: 40px; 
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+  border-radius: 12px;
+  border-style: ridge;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 1.3em;
+  box-sizing: border-box;
+  position: relative;
+}
+#email{
+    background-image: url(mail.svg);
+}
+#senha{
+    background-image: url(lock.svg);
+}
+.logon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh;
+    background: #ffffff;
+    border-radius: 1.25rem;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 20vh;
+}
+form input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  width: 300px;
+  height: 55px;
+  background: #000000;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  transition: background 0.2s ease-in-out;
+  cursor: pointer;
+}
+form h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zoio{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.zoio i {
+  position: absolute;
+  right: 12px;
+  top: 14%;
+  font-size: 22px;
+  cursor: pointer;
+}
+.zoio input {
+  width: 100%;
+  padding-right: 50px;
+}
